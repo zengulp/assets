@@ -15,7 +15,7 @@
   "scripts": {
     "lint": "standard --verbose | snazzy",
     "lint:fix": "standard --fix",
-    "test": "echo \"This repository doesn't have tests yet.\"",
+    "test": "echo \"This package doesn't have any tests yet.\"",
     "build": "npm run gulp -- build",
     "gulp": "gulp --gulpfile scripts/index.js"
   },
