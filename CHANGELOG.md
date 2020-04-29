@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/zengulp/assets/compare/v1.0.3...v1.0.4) (2020-04-29)
+
+
+### Bug Fixes
+
+* **logo:** fix logo artifacts after optimization ([319b992](https://github.com/zengulp/assets/commit/319b9926b4c9551963f25d71a308030781cb953c))
+
 ## [1.0.3](https://github.com/zengulp/assets/compare/v1.0.2...v1.0.3) (2020-04-29)
 
 
