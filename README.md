@@ -1,5 +1,5 @@
 <h1 align="center">
-  @zengulp/assets  
+  @zengulp/assets
 </h1>
 
 <!-- Badges - 1st row -->
