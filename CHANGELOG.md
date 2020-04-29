@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/zengulp/assets/compare/v1.0.2...v1.0.3) (2020-04-29)
+
+
+### Bug Fixes
+
+* remove branded header divider ([31d931b](https://github.com/zengulp/assets/commit/31d931b447b943637d49bf4dde8802aa09cf6c2b))
+
 ## [1.0.2](https://github.com/zengulp/assets/compare/v1.0.1...v1.0.2) (2020-04-29)
 
 
