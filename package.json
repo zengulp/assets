@@ -1,0 +1,48 @@
+{
+  "name": "@zengulp/assets",
+  "version": "0.0.0-development",
+  "description": "The official assets of @zengulp.",
+  "author": "Richard King <richrdkng@gmail.com> (www.richrdkng.com)",
+  "license": "(ISC OR CC-BY-4.0)",
+  "homepage": "https://github.com/zengulp/assets#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zengulp/assets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zengulp/assets/issues"
+  },
+  "scripts": {
+    "lint": "standard --verbose | snazzy",
+    "lint:fix": "standard --fix",
+    "test": "echo \"This repository doesn't have tests yet.\"",
+    "build": "npm run gulp -- build",
+    "gulp": "gulp --gulpfile scripts/index.js"
+  },
+  "devDependencies": {
+    "@nodewell/path": "^1.1.4",
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/exec": "^5.0.0",
+    "@semantic-release/git": "^9.0.0",
+    "gulp": "^4.0.2",
+    "gulp-debug": "^4.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "imagemin-pngquant": "^8.0.0",
+    "semantic-release": "^17.0.7",
+    "snazzy": "^8.0.0",
+    "standard": "^14.3.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "zengulp",
+    "asset",
+    "assets",
+    "brand",
+    "icon",
+    "icons",
+    "logo",
+    "logos"
+  ]
+}
