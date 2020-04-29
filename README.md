@@ -1,6 +1,6 @@
 <!-- Logo -->
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/npm/@zengulp/assets/brand/media/github/assets.svg" alt="@zengulp/assets logo" />
+  <img src="https://cdn.jsdelivr.net/npm/@zengulp/assets@1.0.2/brand/media/github/assets.svg" alt="@zengulp/assets logo" />
 </p>
 
 <!-- Branded divider -->
