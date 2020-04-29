@@ -1,10 +1,10 @@
 <!-- Logo -->
 <p align="center">
-  <a href="#"><img src="https://cdn.jsdelivr.net/npm/@zengulp/assets/brand/media/github/assets.svg" alt="@zengulp/assets" /></a>
+  <img src="https://cdn.jsdelivr.net/npm/@zengulp/assets/brand/media/github/assets.svg" alt="@zengulp/assets logo" />
 </p>
 
 <!-- Branded divider -->
-<a href="#"><img src="https://cdn.jsdelivr.net/npm/@zengulp/assets/brand/media/github/divider.svg" alt="divider" /></a>
+<img src="https://cdn.jsdelivr.net/npm/@zengulp/assets/brand/media/github/divider.svg" alt="divider" />
 
 <!-- Badges - 1st row -->
 <p align="center">
