@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/zengulp/assets/compare/v1.0.0...v1.0.1) (2020-04-29)
+
+
+### Bug Fixes
+
+* add missing branded header section ([81148d0](https://github.com/zengulp/assets/commit/81148d0532fb604321c907fa1a4d9d87ffbf48b7))
+
 # 1.0.0 (2020-04-29)
 
 
