@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/zengulp/assets/compare/v1.0.4...v1.0.5) (2020-04-29)
+
+
+### Bug Fixes
+
+* **docs:** fix outdated assets logo ([6d8e3ef](https://github.com/zengulp/assets/commit/6d8e3ef76b46a3bea651e0f94943df00a3d67eac))
+
 ## [1.0.4](https://github.com/zengulp/assets/compare/v1.0.3...v1.0.4) (2020-04-29)
 
 
