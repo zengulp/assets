@@ -3,9 +3,6 @@
   <img src="https://cdn.jsdelivr.net/npm/@zengulp/assets@1.0.2/brand/media/github/assets.svg" alt="@zengulp/assets logo" />
 </p>
 
-<!-- Branded divider -->
-<img src="https://cdn.jsdelivr.net/npm/@zengulp/assets/brand/media/github/divider.svg" alt="divider" />
-
 <!-- Badges - 1st row -->
 <p align="center">
   <!-- NPM badge -->
