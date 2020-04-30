@@ -5,21 +5,28 @@
 coverage
 .nyc_output
 
-# graphics and other media files
-/media
+# Graphics and other media files
+assets
+media
 
-# scripts directory
-/scripts
-/script
+# Scripts directory
+scripts
+script
 
-# source directory
-/src
+# Source directory
+src
+source
 
-# test directory
-/tests
-/test
+# Test directory
+tests
+test
 
-# development-related files
+# IDE directories and files
+.idea
+.vscode
+.editorconfig
+
+# Development-related files
 .babelrc
 .gitattributes
 .jestrc.json
@@ -29,7 +36,6 @@ coverage
 .releaserc
 .travis.yml
 
-# editor settings
-.idea
-.vscode
-.editorconfig
+# Temporary / development directories and files
+._*
+.temp*/
