@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/zengulp/assets/compare/v1.0.5...v1.1.0) (2020-04-30)
+
+
+### Features
+
+* **docs:** add dir and file structure with details ([fc81288](https://github.com/zengulp/assets/commit/fc812888969d95b26afe6aa7d1b90526084c56f0))
+
 ## [1.0.5](https://github.com/zengulp/assets/compare/v1.0.4...v1.0.5) (2020-04-29)
 
 
