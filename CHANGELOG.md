@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/zengulp/assets/compare/v1.1.0...v1.1.1) (2020-04-30)
+
+
+### Bug Fixes
+
+* fix outdated GitHub avatar ([0d88080](https://github.com/zengulp/assets/commit/0d88080cc3116455b68777921b22d9d2c9b6996d))
+
 # [1.1.0](https://github.com/zengulp/assets/compare/v1.0.5...v1.1.0) (2020-04-30)
 
 
