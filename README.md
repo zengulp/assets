@@ -57,19 +57,30 @@
 
 ## Usage
 
-```bash
+Directory and file structure:
+
+```
 @zengulp/assets
-  
-  /brand
-    /logo
-      logo.svg
-      logotype.svg
-        
-    /media
-      /github
-        assets.svg
-        avatar.png
-        divider.svg
+│
+└── brand
+    │
+    ├── logo
+    │   │
+    │   ├── logo.svg         - full-sized logo in color
+    │   ├── logo.min.svg     - minified logo in color
+    │   ├── logotype.svg     - full-sized logo with name in color
+    │   └── logotype.min.svg - minified logo with name in color
+    │
+    └── media
+        │
+        └── github
+            │
+            ├── avatar.png      - full-sized GitHub Avatar
+            ├── avatar.min.png  - minified GitHub Avatar
+            ├── divider.svg     - full-sized README.md branded divider
+            ├── divider.min.svg - minified README.md branded divider
+            ├── header.svg      - full-sized README.md header
+            └── header.min.svg  - minified README.md header
 ```
 
 ## Contribution
