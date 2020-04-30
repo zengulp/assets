@@ -1,6 +1,6 @@
 <!-- Logo -->
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/npm/@zengulp/assets/brand/media/github/header.min.svg" alt="@zengulp/assets logo" />
+  <img src="https://cdn.jsdelivr.net/npm/@zengulp/assets/brand/media/github/header/assets.min.svg" alt="@zengulp/assets logo" />
 </p>
 
 <!-- Badges - 1st row -->
@@ -75,12 +75,20 @@ Directory and file structure:
         │
         └── github
             │
+            ├── header
+            │   ├── assets.svg      - full-sized README.md header for @zengulp/assets
+            │   ├── assets.min.svg  - minified README.md header for @zengulp/assets
+            │   ├── cli.svg         - full-sized README.md header for @zengulp/cli
+            │   ├── cli.min.svg     - minified README.md header for @zengulp/cli
+            │   ├── core.svg        - full-sized README.md header for @zengulp/core
+            │   ├── core.min.svg    - minified README.md header for @zengulp/core
+            │   ├── zengulp.svg     - full-sized README.md header for the main zengulp repository
+            │   └── zengulp.min.svg - minified README.md header for the main zengulp repository
+            │
             ├── avatar.png      - full-sized GitHub Avatar
             ├── avatar.min.png  - minified GitHub Avatar
             ├── divider.svg     - full-sized README.md branded divider
-            ├── divider.min.svg - minified README.md branded divider
-            ├── header.svg      - full-sized README.md header
-            └── header.min.svg  - minified README.md header
+            └── divider.min.svg - minified README.md branded divider
 ```
 
 ## Contribution
