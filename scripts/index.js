@@ -4,6 +4,7 @@ const { task, src, dest, parallel } = require('gulp')
 const path = require('@nodewell/path')
 const imagemin = require('gulp-imagemin')
 const png = require('imagemin-pngquant')
+const rename = require('gulp-rename')
 
 task('build:copy-files', async () => {
   src([
@@ -13,7 +14,12 @@ task('build:copy-files', async () => {
     .pipe(dest(path('@/dist')))
 })
 
-task('build:logo', async () => {
+task('build:brand:logo', async () => {
+  src(path('@/src/brand/logo/**/*.svg'))
+    .pipe(dest(path('@/dist/brand/logo')))
+})
+
+task('build:brand:logo:min', async () => {
   const floatPrecision = 0
 
   src(path('@/src/brand/logo/**/*.svg'))
@@ -28,10 +34,16 @@ task('build:logo', async () => {
         ]
       })
     ]))
+    .pipe(rename(path => { path.basename += '.min' }))
     .pipe(dest(path('@/dist/brand/logo')))
 })
 
-task('build:media:github:png', async () => {
+task('build:brand:media:github:png', async () => {
+  src(path('@/src/brand/media/github/**/*.png'))
+    .pipe(dest(path('@/dist/brand/media/github')))
+})
+
+task('build:brand:media:github:png:min', async () => {
   src(path('@/src/brand/media/github/**/*.png'))
     .pipe(imagemin([
       png({
@@ -40,10 +52,16 @@ task('build:media:github:png', async () => {
         quality: [0.75, 0.95]
       })
     ]))
+    .pipe(rename(path => { path.basename += '.min' }))
     .pipe(dest(path('@/dist/brand/media/github')))
 })
 
-task('build:media:github:svg', async () => {
+task('build:brand:media:github:svg', async () => {
+  src(path('@/src/brand/media/github/**/*.svg'))
+    .pipe(dest(path('@/dist/brand/media/github')))
+})
+
+task('build:brand:media:github:svg:min', async () => {
   src(path('@/src/brand/media/github/**/*.svg'))
     .pipe(imagemin([
       imagemin.svgo({
@@ -56,14 +74,18 @@ task('build:media:github:svg', async () => {
         ]
       })
     ]))
+    .pipe(rename(path => { path.basename += '.min' }))
     .pipe(dest(path('@/dist/brand/media/github')))
 })
 
 task('build',
   parallel(
     'build:copy-files',
-    'build:logo',
-    'build:media:github:png',
-    'build:media:github:svg'
+    'build:brand:logo',
+    'build:brand:logo:min',
+    'build:brand:media:github:png',
+    'build:brand:media:github:png:min',
+    'build:brand:media:github:svg',
+    'build:brand:media:github:svg:min'
   )
 )
