@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/zengulp/assets/compare/v1.1.1...v1.2.0) (2020-04-30)
+
+
+### Bug Fixes
+
+* **docs:** fix outdated header link and dir-file structure ([53c2d86](https://github.com/zengulp/assets/commit/53c2d86a5abc2c50e4abcfda1b02e30da75c1665))
+
+
+### Features
+
+* **github:** add per-repository README.md header assets ([0f34cc7](https://github.com/zengulp/assets/commit/0f34cc7b53d012d377dfcbfd88f0b5e9b46651af))
+
 ## [1.1.1](https://github.com/zengulp/assets/compare/v1.1.0...v1.1.1) (2020-04-30)
 
 
