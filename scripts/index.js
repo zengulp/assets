@@ -34,7 +34,7 @@ task('build:brand:logo:min', async () => {
         ]
       })
     ]))
-    .pipe(rename(path => { path.basename += '.min' }))
+    .pipe(rename({ suffix: '.min' }))
     .pipe(dest(path('@/dist/brand/logo')))
 })
 
@@ -52,7 +52,7 @@ task('build:brand:media:github:png:min', async () => {
         quality: [0.75, 0.95]
       })
     ]))
-    .pipe(rename(path => { path.basename += '.min' }))
+    .pipe(rename({ suffix: '.min' }))
     .pipe(dest(path('@/dist/brand/media/github')))
 })
 
@@ -74,7 +74,7 @@ task('build:brand:media:github:svg:min', async () => {
         ]
       })
     ]))
-    .pipe(rename(path => { path.basename += '.min' }))
+    .pipe(rename({ suffix: '.min' }))
     .pipe(dest(path('@/dist/brand/media/github')))
 })
 
