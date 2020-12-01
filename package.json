@@ -29,7 +29,7 @@
     "gulp-rename": "^2.0.0",
     "imagemin-pngquant": "^8.0.0",
     "semantic-release": "^17.0.7",
-    "snazzy": "^8.0.0",
+    "snazzy": "^9.0.0",
     "standard": "^14.3.3"
   },
   "publishConfig": {
