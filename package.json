@@ -30,7 +30,7 @@
     "imagemin-pngquant": "^8.0.0",
     "semantic-release": "^17.0.7",
     "snazzy": "^8.0.0",
-    "standard": "^14.3.3"
+    "standard": "^16.0.3"
   },
   "publishConfig": {
     "access": "public"
